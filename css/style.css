@@ -1,0 +1,44 @@
+/* 
+Font-Family: 'Roboto Condensed', Sans-Serif;
+Font-Size: 35px;
+*/
+
+/* 
+Font-Family: 'Cabin', Sans-Serif;
+Font-Size: 16px;
+*/
+
+body {
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
+
+h1 {
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+}
+
+h2,h3,h4,h5 {
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+}
+
+p {
+    Font-Family: 'Cabin', Sans-Serif;
+    Font-Size: 16px;
+}
+
+
+.navigationbar {
+    text-align: center;
+    margin-bottom: 1px; 
+    Font-Family: 'Cabin', Sans-Serif;
+    Font-Size: 16px;
+}
+
+.link {
+    color: black;
+    text-align: center;
+    Font-Family: 'Cabin', Sans-Serif;
+}
+
+
+
