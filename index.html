@@ -20,37 +20,46 @@
 
   <body>
 
-    <nav class="sticky-top shadow navbar navbar-light bg-light">
+    <nav id="navbar-example" class="sticky-top shadow navbar navbar-light bg-light" style="background-color: rgb(255, 255, 255) !important">
       <div class="container-fluid">
-          <a class="navbar-brand mb-0 h1" href="index.html" style="font-size: 30px;">Kunvuthi Mar</a>
-         <div class="navbar px-5 navigationbar">
-          <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link link active" aria-current="page" href="#">Home</a> </button>
-          <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link link" href="#">About Me</a> </button>
+          <a class="navbar-brand mx-auto mb-0 h1" href="index.html" style="font-size: 30px; position:relative; left: 2%;"><h1>K. Mar</h1></a>
+         <div class="navbar navigationbar col-2 mx-auto" style="position:relative; left: -4%;">
+          <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link link active" aria-current="page" href="#Home">Home</a> </button>
+          <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link link" href="#aboutme">About Me</a> </button>
           <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link link" href="#">Portfolio</a> </button> 
           <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link link" href="#">Contact</a> </button>        
          </div>
       </div>
     </nav>
 
-
-  <div class="container-fluid" style="align-items: center !important; height:889px !important;"> 
+  <div id="Home" class="container-fluid" style="align-items: center !important; height:800px !important; background-color: rgb(245, 249, 250);"> 
     <div class="row">
       <div class="col-6 main-content">
-         <div class="mx-auto my-5" style="max-width: 21rem; min-height: 13rem; position:relative; left: 30%; bottom: -40%;">
+         <div class="mx-auto my-5" style="max-width: 21rem; min-height: 13rem; position:relative; left: 30%; bottom: -30%;">
            <div class="card-body">
-             <h4>I am</h5>
-             <h2> Kunvuthi Mar</h3>
+             <h4>I am</h4>
+             <h2> Kunvuthi Mar</h2>
              <p class="card-text" style="color:rgb(160, 160, 160);">Aspiring Journey to Become a Data Scientist</p>
              <button type="button" class="btn btn-primary btn-lg ms-3" ><a href="#" class="link">My Work</a></button>
            </div>  
          </div> 
       </div>
       <div class="col-6 image">
-        <img src="media/city_abit_small.jpg" class="rounded mx-auto d-block" style="position:relative; left:-20%; bottom: -20%;" alt="city.jpg">
+        <img src="media/city_abit_small.jpg" class="rounded mx-auto d-block" style="position:relative; left:-20%; bottom: -10%;" alt="city.jpg">
       </div>
     </div>
   </div> 
-    
+
+  <section>
+    <div id="aboutme" class="container-fluid text-center border" style="align-items: center !important; height:500px !important;">
+      <h1 style="position: relative; left:-20%; top: 12%"><strong>About Me</strong></h1>
+      <div class="mx-auto" style="max-width: 50rem; position: relative; top: 17%">
+        <p class="text-break aboutme-text">What might be interesting about me? My favorite sport is swimming. Usually I swim once everyweek. I also love to play RPG and grand strategy games. Most importantly, I love to learn. It is certainly very exciting whenever I am trying to learn something new. The feeling of being able to solve problems that I have been stuck with or new ones is very satisfying to me.</p>
+        <p class="text-break aboutme-text">I am currently still a sixth form student. However, my goal has ever been striving towards Data Science. I have learned partially about SQL, python, machine learning, and Power BI. Furthermore, I am always learning and open for great constructive feedback.</p>
+      </div>
+    </div>
+  </section>
+
 
 
 

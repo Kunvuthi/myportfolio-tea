@@ -13,11 +13,7 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
-h1 {
-    Font-Family: 'Roboto Condensed', Sans-Serif;
-}
-
-h2,h3,h4,h5 {
+h1,h2,h3,h4,h5 {
     Font-Family: 'Roboto Condensed', Sans-Serif;
 }
 
@@ -28,16 +24,24 @@ p {
 
 
 .navigationbar {
-    text-align: center;
-    margin-bottom: 1px; 
+    text-align: center; 
     Font-Family: 'Cabin', Sans-Serif;
-    Font-Size: 16px;
+    Font-Size: 20px;
+}
+
+.btn {
+    margin-right: -10rem;
 }
 
 .link {
     color: black;
     text-align: center;
     Font-Family: 'Cabin', Sans-Serif;
+}
+
+.aboutme-text {
+    font-size: 20px !important;
+    color: rgb(58, 58, 58);
 }
 
 
