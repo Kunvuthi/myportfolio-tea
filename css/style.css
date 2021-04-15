@@ -8,6 +8,11 @@ Font-Family: 'Cabin', Sans-Serif;
 Font-Size: 16px;
 */
 
+/*
+Font-Family: 'Cardo', Serif;
+Font-Size: 48px;
+*/
+
 body {
     color: black;
     background-color: rgb(240, 240, 240);
@@ -19,9 +24,13 @@ h1,h2,h3,h4,h5 {
 
 p {
     Font-Family: 'Cabin', Sans-Serif;
-    Font-Size: 16px;
+    Font-Size: 20px;
 }
 
+.navbrand {
+    Font-Family: 'Cardo', Serif;
+    Font-Size: 48px;
+}
 
 .navigationbar {
     text-align: center; 
