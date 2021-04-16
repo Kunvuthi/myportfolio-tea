@@ -53,5 +53,17 @@ p {
     color: rgb(58, 58, 58);
 }
 
+.cardtext {
+    position: relative;
+    left: -38%;
+}
 
+.divider1 {
+    position: relative;
+    top: 20%;
+}
 
+.divider2 {
+    position: relative;
+    top: -10%;
+}
