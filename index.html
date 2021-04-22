@@ -21,35 +21,57 @@
 
   <body>
 
-    <nav id="navbar-example" class="sticky-top shadow navbar navbar-light bg-light" style="background-color: rgb(255, 255, 255) !important">
-      <div class="container-fluid">
-          <a class="navbrand navbar-brand mx-auto mb-0 h1" href="index.html" style="font-size: 30px; position:relative; left: 2%;"><h1>K. Mar</h1></a>
-         <div class="navbar navigationbar col-2 mx-auto" style="position:relative; left: -4%;">
-          <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link link active" aria-current="page" href="#">Home</a> </button>
-          <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link link" href="#aboutme">About Me</a> </button>
-          <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link link" href="#portfolio1">Portfolio</a> </button> 
-          <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link link" href="#">Contact</a> </button>        
-         </div>
+    
+    <nav id="navbar-example" class="sticky-top navbar navbar-expand-lg navbar-light shadow bg-light" style="background-color: rgb(255, 255, 255) !important;">
+      <div class="container-fluid" style="max-width: 55%;">
+            <a class="navbar-brand" href="index.html" style="font-size: 30px;"><h2>K. Mar</h2></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleNavMenu" aria-controls="toggleNavMenu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleNavMenu">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio1">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
       </div>
     </nav>
 
-  <div id="Home" class="container-fluid" style="align-items: center !important; height:800px !important; background-color: rgb(247, 253, 255);"> 
-    <div class="row">
-      <div class="col-6 main-content">
-         <div class="mx-auto my-5" style="max-width: 21rem; min-height: 13rem; position:relative; left: 30%; bottom: -30%;">
+
+
+
+
+
+
+
+<section class="home">
+  <div id="Home" class="container-fluid" style="height:800px !important; background-color: rgb(247, 253, 255);"> 
+      <div class="container-fluid mx-auto justify-content-between row fullscreen align-items-center" style="max-width: 60rem; position:relative; padding-top: 5%;">
+         <div class="col-lg-6 col-md-6 col-xs-6 main-content mx-auto my-8" style="max-width: 21rem; min-height: 13rem;">
            <div class="card-body">
              <h4>I am</h4>
              <h2> Kunvuthi Mar</h2>
              <p class="card-text" style="color:rgb(160, 160, 160);">Aspiring Journey to Become a Data Scientist</p>
              <button type="button" class="btn btn-primary btn-lg ms-3" ><a href="#portfolio1" class="link">My Work</a></button>
            </div>  
-         </div> 
+         </div>
+       <div class="col-lg-6 col-md-6 col-xs-6 align-self-center image" style="max-width: 30rem">
+        <img src="media/city_abit_small.jpg" class="rounded mx-auto d-block" style="width:auto;height:auto;max-width:100%;" alt="city.jpg">
+       </div>
       </div>
-      <div class="col-6 image">
-        <img src="media/city_abit_small.jpg" class="rounded mx-auto d-block" style="position:relative; left:-20%; bottom: -10%;" alt="city.jpg">
-      </div>
-    </div>
+     </div>
   </div> 
+</section>
 
   <section>
     <div id="aboutme" class="container-fluid text-center" style="align-items: center !important; height:1000px !important;">
@@ -64,42 +86,43 @@
       <div class="progression-bar" style="position: relative; top: 25%;">
         <h1 class="display-4">Proficiency Bar</h2>
         <p class="text-muted">1-Basic     2-Novice      3-Intermediate  4-Advanced   5-Expert</p>
+          <div class="container-fluid">
+            <div class="row">
+             
+                <div class="card mx-auto .col-md-4 .col-sm-12" style="max-width: 36rem;">
+                  <div class="card-body">
+                    <h4 class="card-title"><u>Machine Learning</u></h4>
+                    <p class="card-text  cardtext text-muted fst-italic">Python - 4</p>
+                    <div class="progress">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              
 
-        <div class="row my-5">
-          <div class="col-sm-4">
-            <div class="card mx-auto" style="max-width: 40rem;">
-              <div class="card-body">
-                <h4 class="card-title"><u>Machine Learning</u></h4>
-                <p class="card-text  cardtext text-muted fst-italic">Python - 4</p>
-                <div class="progress">
-                  <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="card mx-auto .col-md-4 .col-sm-12" style="max-width: 36rem;">
+                  <div class="card-body">
+                    <h4 class="card-title"><u>Database</u></h4>
+                    <p class="card-text cardtext text-muted fst-italic">SQL - 3</p>
+                    <div class="progress">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>  
                 </div>
-              </div>
+            
+              
+                <div class="card mx-auto .col-md-4 .col-sm-12" style="max-width: 36rem;">
+                  <div class="card-body">
+                    <h4 class="card-title"><u>Analytics</u></h4>
+                    <p class="card-text cardtext text-muted fst-italic">Power BI - 3</p>
+                    <div class="progress">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card mx-auto" style="max-width: 40rem;">
-              <div class="card-body">
-                <h4 class="card-title"><u>Database</u></h4>
-                <p class="card-text cardtext text-muted fst-italic">SQL - 3</p>
-                <div class="progress">
-                  <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>  
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card mx-auto" style="max-width: 40rem;">
-              <div class="card-body">
-                <h4 class="card-title"><u>Analytics</u></h4>
-                <p class="card-text cardtext text-muted fst-italic">Power BI - 3</p>
-                <div class="progress">
-                  <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -107,10 +130,10 @@
 
   
   <section>
-    <div id='portfolio1' class="container-fluid text-center" style="background-color: rgb(247, 253, 255); height: 800px;">
+    <div id='portfolio1' class="container-fluid text-center" style="background-color: rgb(247, 253, 255);">
         <h1 class="display-4" style="text-align: center; position: relative; top:5%"><u>My Latest Work</u></h1>
         <div class="row" style="position: relative; top:20%">
-          <div class="card mb-3 col-6 mx-auto" style="max-width: 40rem; position: relative; left: 5%;">
+          <div class="card mb-3 .col-md-4 	.col-sm-12   mx-auto" style="max-width: 36rem;">
             <a href="https://app.powerbi.com/reportEmbed?reportId=c864dc4a-3cc0-45b5-9044-6a81a68f8e40&autoAuth=true&ctid=f5f41a8f-44a2-47c2-8f88-cd1cf5142158&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWV1cm9wZS1ub3J0aC1iLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9"><img src="media/powerbi_project_icon.png" class="card-img-top" alt="uk_vaccination_progress.png"></a>
             <div class="card-body">
               <h4 class="card-title"><strong>Covid-19 Vaccination Progress Visualisation</strong></h4>
@@ -118,12 +141,20 @@
               <p class="card-text"><small class="text-muted">16 April 2021</small></p>
             </div>
           </div>
-          <div class="card mb-3 col-6 mx-auto" style="max-width: 40rem; position: relative; right: 5%;">
+          <div class="card mb-3 .col-md-4 .col-sm-12 mx-auto" style="max-width: 36rem;">
             <a href="https://github.com/Kunvuthi/pythonlearningprojects"><img src="media/python_project_sample_icon.png" class="card-img-top" alt="python_project_sample_icon.png"></a>
             <div class="card-body">
               <h4 class="card-title"><strong>Python and Machine Learning Projects</strong></h4>
               <p class="card-text">This is a GitHub link to my collections of small projects and script in python covering Data Structures, Algorithms, Machine Learning, Data Visualisation and etc.</p>
               <p class="card-text"><small class="text-muted">16 April 2021</small></p>
+            </div>
+          </div>
+          <div class="card mb-3 .col-md-4 .col-sm-12 mx-auto" style="max-width: 36rem;">
+            <a href="https://github.com/Kunvuthi/hands-on-machine-learning"><img src="media/machine_learning_icon.png" class="card-img-top" alt="python_project_sample_icon.png"></a>
+            <div class="card-body">
+              <h4 class="card-title"><strong>UK Housing Machine Learning Project</strong></h4>
+              <p class="card-text">This is a GitHub link to my machine learning project concerning with the UK housing. It is a regression model with some guide based on a book called "Hands-On-Machine Learning with Scikit-Learn, Keras, and Tensorflow" Geron.</p>
+              <p class="card-text"><small class="text-muted">22 April 2021</small></p>
             </div>
           </div>
         </div>
