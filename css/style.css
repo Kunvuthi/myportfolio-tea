@@ -53,8 +53,28 @@ p {
     color: rgb(58, 58, 58);
 }
 
+.nav-brand {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    background:rgb(26, 26, 26) !important;
+    color: #fff !important;
+}
 
 .divider1 {
+    position: relative;
+    top: 30%;
+}
+
+.divider2 {
     position: relative;
     top: 20%;
 }

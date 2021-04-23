@@ -22,16 +22,16 @@
   <body>
 
     
-    <nav id="navbar-example" class="sticky-top navbar navbar-expand-lg navbar-light shadow bg-light" style="background-color: rgb(255, 255, 255) !important;">
+    <nav id="navbar-example" class="sticky-top navbar navbar-expand-lg navbar-light shadow" style="background-color: rgb(255, 255, 255) !important;">
       <div class="container-fluid" style="max-width: 55%;">
-            <a class="navbar-brand" href="index.html" style="font-size: 30px;"><h2>K. Mar</h2></a>
+            <a class="navbar-brand" href="index.html" style="font-size: 30px;"><h1>K. Mar</h1></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleNavMenu" aria-controls="toggleNavMenu" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="toggleNavMenu">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#aboutme">About Me</a>
@@ -55,7 +55,7 @@
 
 
 <section class="home">
-  <div id="Home" class="container-fluid" style="height:800px !important; background-color: rgb(247, 253, 255);"> 
+  <div id="Home" class="container-fluid" style="height:800px !important; background-color: rgb(247, 253, 255);" > 
       <div class="container-fluid mx-auto justify-content-between row fullscreen align-items-center" style="max-width: 60rem; position:relative; padding-top: 5%;">
          <div class="col-lg-6 col-md-6 col-xs-6 main-content mx-auto my-8" style="max-width: 21rem; min-height: 13rem;">
            <div class="card-body">
@@ -73,17 +73,24 @@
   </div> 
 </section>
 
+
+
   <section>
-    <div id="aboutme" class="container-fluid text-center" style="align-items: center !important; height:1000px !important;">
-      <h1 class="display-4" style="position: relative; top: 9%">About Me</h1>
-      <div class="mx-auto" style="max-width: 50rem; position: relative; top: 13%">
+    <div id="aboutme" class="container-fluid text-center align-items-center" style="align-items: center !important; min-height:600px; max-height:700px !important;">
+    <div style="position:relative; padding-top: 10%;">
+      <h1 class="display-4">About Me</h1>
+      <div class="mx-auto" style="max-width: 50rem;">
         <p class="text-break aboutme-text">What might be interesting about me? My favorite sport is swimming. Usually I swim once everyweek. I also love to play RPG and grand strategy games. Most importantly, I love to learn. It is certainly very exciting whenever I am trying to learn something new. The feeling of being able to solve problems that I have been stuck with or new ones is very satisfying to me.</p>
         <p class="text-break aboutme-text">I am currently still a sixth form student. However, my goal has ever been striving towards Data Science. I have learned partially about SQL, python, machine learning, and Power BI. Furthermore, I am always learning and open for great constructive feedback.</p>
       </div>
+    </div>
+    </div>
+  </section>
 
-      <hr/ class="divider1">
+      <hr/ class="divider2">
 
-      <div class="progression-bar" style="position: relative; top: 25%;">
+  <section>
+      <div class="container-fluid text-center progression-bar" style="align-items: center !important; min-height:600px; max-height:700px !important; position:relative; padding-top: 5%;">
         <h1 class="display-4">Proficiency Bar</h2>
         <p class="text-muted">1-Basic     2-Novice      3-Intermediate  4-Advanced   5-Expert</p>
           <div class="container-fluid">
@@ -120,18 +127,19 @@
                     </div>
                   </div>
                 </div>
-              
+            
             </div>
           </div>
       </div>
-    </div>
   </section>
   
-
+  <hr/ class="divider1">
   
   <section>
-    <div id='portfolio1' class="container-fluid text-center" style="background-color: rgb(247, 253, 255);">
-        <h1 class="display-4" style="text-align: center; position: relative; top:5%"><u>My Latest Work</u></h1>
+    <div id='portfolio1' class="container-fluid text-center" style="background-color: rgb(247, 253, 255); position: relative; top: 20%;">
+      <div class="container header">
+        <h1 class="display-4" style="text-align: center;"><u>My Latest Work</u></h1>
+      </div> 
         <div class="row" style="position: relative; top:20%">
           <div class="card mb-3 .col-md-4 	.col-sm-12   mx-auto" style="max-width: 36rem;">
             <a href="https://app.powerbi.com/reportEmbed?reportId=c864dc4a-3cc0-45b5-9044-6a81a68f8e40&autoAuth=true&ctid=f5f41a8f-44a2-47c2-8f88-cd1cf5142158&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWV1cm9wZS1ub3J0aC1iLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9"><img src="media/powerbi_project_icon.png" class="card-img-top" alt="uk_vaccination_progress.png"></a>
