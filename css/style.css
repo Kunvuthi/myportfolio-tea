@@ -50,6 +50,20 @@ p {
     margin-right: -10rem;
 }
 
+.footer-head {
+    font-size: 18px;
+    color:rgb(240, 240, 240);
+}
+
+.footer-text {
+    font-size: 15px;
+    color: #777777;
+}
+
+.footer-link {
+    color: #8490ff;
+}
+
 .link {
     color: black;
     text-align: center;
@@ -64,6 +78,14 @@ p {
 .navi-brand {
     font-weight: 1000;
     text-transform: uppercase;
+}
+
+.section-gap {
+    padding: 80px;
+}
+
+.footer-box {
+    background-color: #04091e;
 }
 
 .nav-item {
