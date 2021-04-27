@@ -27,22 +27,22 @@ body {
 }
 
 h1,h2,h3,h4,h5 {
-    Font-Family: 'Roboto Condensed', Sans-Serif;
+    Font-Family: 'Work Sans', Sans-Serif;
 }
 
 p {
-    Font-Family: 'Cabin', Sans-Serif;
+    Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 20px;
 }
 
 .navbrand {
-    Font-Family: 'Cardo', Serif;
+    Font-Family: 'Work Sans', Sans-Serif;
     Font-Size: 48px;
 }
 
 .navigationbar {
     text-align: center; 
-    Font-Family: 'Cabin', Sans-Serif;
+    Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 20px;
 }
 
@@ -52,10 +52,12 @@ p {
 
 .footer-head {
     font-size: 18px;
+    Font-Family: 'Open Sans', Sans-Serif;
     color:rgb(240, 240, 240);
 }
 
 .footer-text {
+    Font-Family: 'Open Sans', Sans-Serif;
     font-size: 15px;
     color: #777777;
 }
@@ -64,14 +66,19 @@ p {
     color: #8490ff;
 }
 
+.card-text {
+    Font-Family: 'Open Sans', Sans-Serif;
+}
+
 .link {
     color: black;
     text-align: center;
-    Font-Family: 'Cabin', Sans-Serif;
+    Font-Family: 'Open Sans', Sans-Serif;
 }
 
 .aboutme-text {
     font-size: 20px !important;
+    Font-Family: 'Open Sans', Sans-Serif;
     color: rgb(58, 58, 58);
 }
 
